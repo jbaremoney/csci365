@@ -1,0 +1,6 @@
+# balls balls balls
+read a 
+
+read b
+c = a + b - 3
+write c
