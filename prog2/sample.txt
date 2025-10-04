@@ -2,5 +2,5 @@
 read a 
 
 read b
-c = a + b - 3
+c = a + b - 3.344
 write c

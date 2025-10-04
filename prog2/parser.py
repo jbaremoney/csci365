@@ -6,7 +6,6 @@ scanning text file for language
 """
 
 import re
-from typing import List
 
 ID_REX = r"^[A-Za-z][A-Za-z0-9]*"
 NUM_REX = r"-?\d+(\.\d+)?"
@@ -105,7 +104,7 @@ def parse_file(lineArr):
 
 
 def print_output(lists):
-    if type(lists) == List:
+    if type(lists) == list:
         for i in range(len(lists)):
             if lists[i] == []:
                 continue
